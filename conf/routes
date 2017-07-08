@@ -1,0 +1,3 @@
+GET             /twitter/user-timeline              controllers.Application.timeline
+GET             /twitter                            controllers.Application.authenticate
+GET             /                                   controllers.Application.index
